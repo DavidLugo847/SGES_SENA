@@ -1,0 +1,170 @@
+
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+a {
+	color: #EF1F2F;
+	text-decoration: none;
+        font-family: Arial;
+}
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:#FFFFFA;
+
+}
+ 
+header {
+	width:100%;
+}
+ 
+header nav {
+	width:100%;
+	max-width:5000px;
+	margin:0px auto;
+	background:#FF6F17;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header nav ul {
+
+	list-style:none;
+}
+ 
+header nav ul li {
+	display: inline-block;
+        position: relative;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+        font-size: 16px;
+        font-family: Arial;
+}
+
+.infouser{
+    color:#fff;
+    padding:20px;
+    display:block;
+    text-decoration:none;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+header nav ul li button {
+	margin-right:10px;
+        border: none;
+        background: none;
+        
+}
+header nav ul li button:hover {
+    
+        -webkit-transition: 0.3s linear all;
+        -o-transition: 0.3s linear all;        
+        background:#D85301;
+        text-decoration:none;
+        color: #EBEBEB;
+}
+
+header nav ul li a:hover {
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    background:#D85301;
+    text-decoration:none;
+    color: #EBEBEB;
+}
+ 
+section {
+	padding:20px;
+}
+.secbar{
+    float: right;
+}
+.info1, th{
+    border-color: #FF6F17;
+    margin-left: 20px;
+    border-radius: 0px 10px 10px 0px;
+    width: 30%;
+}
+th{
+    border: 0;
+}
+.info{
+    padding: 10px 10px 10px 10px;
+    color: #FF6F17;
+    font-family: Arial;
+}
+
+@media screen and (max-width:800px ) {
+.imgb{
+    display: none;
+}
+.imgbag{
+    background-image:url("../media/imagen/aprendices.jpg");
+}
+.info1, th{
+    border-color: #FF6F17;
+    margin-right: 5%;
+    border-radius: 10px 10px 10px 10px;
+    width: auto;
+}
+.secbar{
+    background-color: #E15F0E;
+    float: left;
+}
+header nav {
+        width:80%;
+        height:100%;
+        left:-100%;
+        margin:0;
+        position: fixed;
+}
+
+header nav ul li {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+}
+
+.menu_bar {
+    
+        display:block;
+        width:100%;
+        background:#ccc;
+         text-decoration:none;
+        
+}
+.menu_bar .bt-menu {
+        display:block;
+        padding:10px;
+        background:#FFFFFF;
+        color:#E15F0E;
+        text-decoration:none;
+        font-weight: bold;
+        font-size:25px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        font-size:16px;
+        z-index: 100;
+}
+
+.menu_bar span {
+        float:right;
+        font-size:12px;
+        text-decoration:none;
+}
+}
